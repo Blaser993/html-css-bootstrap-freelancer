@@ -34,6 +34,17 @@ LAYOUT RULES
     padding: 2rem 0;
 }
 
+.bla_copyr{
+    padding: 1.5rem;
+}
+
+.bla_info{
+    padding: 2rem;
+    background-color: var(--tertiary-bg);
+}
+
+
+
 /* ##############################################
 
 HEADER RULES
