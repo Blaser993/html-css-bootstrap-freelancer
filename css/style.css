@@ -5,7 +5,26 @@
     --tertiary-bg:#3A546D;   
 }
 
+menu,
+ul,
+ol,
+li{
+   list-style-type: none; 
+   padding:0;
+   margin: 0;
+}
 
+a{
+    text-decoration: none;
+    color: currentColor;
+    line-height: 1.5rem;
+}
+
+
+img{
+    display: block;
+    max-width: 100%;
+}
 
 
 /* ##############################################
@@ -51,20 +70,7 @@ HEADER RULES
 
 ################################################ */
 
-menu,
-ul,
-ol,
-li{
-   list-style-type: none; 
-   padding:0;
-   margin: 0;
-}
 
-a{
-    text-decoration: none;
-    color: currentColor;
-    line-height: 1.5rem;
-}
 
 .bla_header nav{
     padding: 0.5rem 0;
@@ -100,6 +106,26 @@ HERO RULES
 
 ################################################ */
 
+.bla_hero img{
+    max-width: 40%;
+    margin: auto;
+}
+
+.bla_star::before{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:20px;
+    background-color: var(--white-bg);
+}
+
+.bla_star::after{
+    content: "";
+    display: inline-block;
+    height: 4px;
+    width:20px;
+    background-color: var(--white-bg);
+}
 
 
 /* ##############################################
