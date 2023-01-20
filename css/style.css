@@ -10,13 +10,37 @@
 
 /* ##############################################
 
-HEDER RULES
+HEADER RULES
 
 ################################################ */
 
 .bla_header{
     background-color: var(--header-bg);
     color: var(--white-bg);
+}
+
+/* ##############################################
+
+HERO RULES
+
+################################################ */
+
+.bla_hero{
+    background-color: var(--primary-bg);
+    color: var(--white-bg);
+    padding: 3.25rem 0;
+}
+
+/* ##############################################
+
+ RULES
+
+################################################ */
+
+.bla_hero{
+    background-color: var(--primary-bg);
+    color: var(--white-bg);
+    padding: 3.25rem 0;
 }
 
 
