@@ -6,18 +6,39 @@
 }
 
 
-
-
 /* ##############################################
 
 HEADER RULES
 
 ################################################ */
 
-.bla_header{
+
+/* ##############################################
+
+LAYOUT RULES
+
+################################################ */
+
+.bla_header,
+.bla_footer{
     background-color: var(--header-bg);
     color: var(--white-bg);
 }
+
+.bla_hero,
+.bla_about{
+    background-color: var(--primary-bg);
+    color: var(--white-bg);
+    padding: 3.25rem 0;
+}
+
+.bla_portfolio,
+.bla_contact{
+    background-color: var(--white-bg);
+    color: var(--header-bg);
+    padding: 2rem 0;
+}
+
 
 /* ##############################################
 
@@ -25,23 +46,15 @@ HERO RULES
 
 ################################################ */
 
-.bla_hero{
-    background-color: var(--primary-bg);
-    color: var(--white-bg);
-    padding: 3.25rem 0;
-}
+
 
 /* ##############################################
 
- RULES
+PORTFOLIO RULES
 
 ################################################ */
 
-.bla_hero{
-    background-color: var(--primary-bg);
-    color: var(--white-bg);
-    padding: 3.25rem 0;
-}
+
 
 
 
