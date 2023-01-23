@@ -167,7 +167,3 @@ DEBUG RULES
 .debug{
     border: 4px dashed salmon;
 }
-
-[class ^= "col"]{
-    border: 2px solid rgb(228, 163, 0);
-}
