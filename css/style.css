@@ -72,8 +72,21 @@ HEADER RULES
 
 
 
+
+.nav-link,
+.navbar-brand,
+.nav-link:hover,
+.navbar-brand:hover{
+    color:currentColor;
+}
+
+.nav-link:hover{
+    color: currentColor;
+}
+
 .bla_header nav{
     padding: 0.5rem 0;
+    color: var(--white-bg);
 }
 
 @media screen and (max-width:575px){
@@ -115,7 +128,8 @@ HERO RULES
     content: "";
     display: inline-block;
     height: 4px;
-    width:20px;
+    width:20%;
+    border-radius: 99px;
     background-color: var(--white-bg);
 }
 
@@ -123,7 +137,8 @@ HERO RULES
     content: "";
     display: inline-block;
     height: 4px;
-    width:20px;
+    width:20%;
+    border-radius: 99px;
     background-color: var(--white-bg);
 }
 
