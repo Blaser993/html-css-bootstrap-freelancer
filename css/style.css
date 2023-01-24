@@ -155,6 +155,32 @@ PORTFOLIO RULES
     border-radius: 12px;
 }
 
+/* ##############################################
+
+ABOUT RULES
+
+################################################ */
+
+.btn.btn-outline-primary{
+    color: var(--white-bg);
+    border-color: var(--white-bg);
+}
+
+
+/* ##############################################
+
+CONTACT RULES
+
+################################################ */
+
+.btn-primary{
+    background-color: var(--primary-bg);
+}
+
+.bla_imp{
+    color: var(--primary-bg);
+}
+
 
 
 
